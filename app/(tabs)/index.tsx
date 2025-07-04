@@ -13,6 +13,13 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import "../global.css";
 
+/**
+ * Renders the main application screen displaying a list of offer cards with a delivery location header.
+ *
+ * The screen includes a header showing the delivery location and a cart button, followed by a scrollable list of offers. Each offer card displays an image, title, and a right arrow, with alternating card layouts for visual variety.
+ *
+ * @returns The root React element for the app's main screen.
+ */
 export default function App() {
   return (
     <SafeAreaView className="flex-1 bg-white">
