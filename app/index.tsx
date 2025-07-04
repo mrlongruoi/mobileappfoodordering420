@@ -13,6 +13,11 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import "./global.css";
 
+/**
+ * Displays a scrollable list of offer cards with a header showing delivery location and a cart button.
+ *
+ * Renders each offer with an image, title, and arrow icon, alternating the layout direction for visual variety. The header includes a delivery location selector and a cart button.
+ */
 export default function App() {
   return (
     <SafeAreaView className="flex-1 bg-white">
